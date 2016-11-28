@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
+    <title>Document</title>
+</head>
+<body>
+    <div id="invoice">
+        <div class="header">
+            <img src="lgo.png" id="logo">
+            <div id="datosEmpresa">
+                <strong>Constructora Haguen SA de CV</strong>
+                <p>CHA12094LDA</p>
+                <p id="domicilioFiscal">Domicilio Fiscal</p>
+                <p>Calle Rio Balsas</p>
+                <p>Colonia</p>
+                <p>Puebla Puebla Puebla México</p>
+                <p>Tel. 2222222222</p>
+            </div>
+
+            <div id="datosFactura">
+                <strong>FACTURA No: 1056</strong> <br>
+                <strong>FOLIO FISCAL (UUID):</strong> <br>
+                <p>192928928483039092390390903903</p>
+                <strong>NO. DE SERIE DEL CERTIFICADO DEL SAT:</strong><br>
+                <p>00000000000209</p>
+                <strong>NO. SERIE DEL CERTIFICADO DEL EMISOR:</strong>
+                <p>000000000000000</p>
+                <strong>FECHA Y HORA DE CERTIFICACION</strong>
+                <p>2016-09-27T16:53:44</p>
+                <strong>FECAH Y HORA DE EMISIÓN DE CFDI:</strong>
+                <p>2016-09-27T16:53:44</p>
+            </div>
+
+            <div id="datosCliente">
+                <div class="columna1">
+                    <div class="columnaIzquierda">
+                        <p>CLIENTE:</p>
+                        <p>RFC:</p>
+                        <p>DIRECCIÓN:</p>
+                    </div>
+                    <div class="columnaDerecha">
+                        <p>Nombre del cliente</p>
+                        <p>RFC del cliente</p>
+                        <p>Calle y numero</p>
+                        <p>Colonia y CP</p>
+                        <p>Munipio y Ciudad</p>
+                        <p>Estado</p>                        
+                    </div>
+                </div>
+
+                <div class="columna2" id="marginLeftCols">
+                    <div class="columnaIzquierda" id="spaceBetweenLines">
+                        <p>Régimen Fiscal:</p>
+                        <p>Lugar de Expedición:</p>
+                        <p>Forma de Pago:</p>
+                        <p>Método de Pago:</p>
+                    </div>
+                    <div class="columnaDerecha" id="spaceBetweenLines">
+                        <p>Régimen</p>
+                        <p>Lugar Expedición</p>
+                        <p>Pago</p>
+                        <p>Método Pago Munipio y Ciudad</p>                       
+                    </div>
+                </div>
+
+                <div class="columna3" id="marginLeftCols">
+                    <div class="columnaIzquierda" id="spaceBetweenLines">
+                        <p>Fecha de Expedición:</p>
+                        <p>Clave de Moneda:</p>
+                    </div>
+                    <div class="columnaDerecha" id="spaceBetweenLines">
+                        <p>Nombre del cliente</p>
+                        <p>RFC del cliente</p>                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="body">
+
+            <table>
+            <thead>
+                <tr>
+                    <th>CANTIDAD</th>
+                    <th>UNIDAD DE MEDIDA</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>PRECIO UNITARIO</th>
+                    <th>IMPORTE</th>
+                </tr>
+            </thead>
+                
+
+                <tr class="fontSizeDescription">
+                    <td>1</td>
+                    <td>Pza</td>
+                    <td>
+                        SUMINISTRO E INSTALACIÓN DE 3 MUROS ACUSTICOS MOVILES
+                        CON RIEL, SISTEMA DE ANCLAJE PARA SELLADO DE MUROS Y
+                        REFUERZOS DE TABLA ROCA CON AISLAMIENTO EN LATERALES
+                        DE MUROS.
+                    </td>
+                    <td>$10.98</td>
+                    <td>$20</td>
+                </tr>
+                
+            </table>
+            
+        </div>
+
+        <div class="footer">
+            
+        </div>
+    </div>
+</body>
+</html>
